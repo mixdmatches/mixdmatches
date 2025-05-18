@@ -12,6 +12,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     name: generate-github-profile-3d-contrib
+    # 添加 permissions 字段
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v3
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
@@ -24,4 +27,3 @@ jobs:
           git config user.email github-actions@github.com
           git add -A .
           git diff --staged --exit-code || (git commit -m "generated" && git push)
-
