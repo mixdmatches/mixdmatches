@@ -14,3 +14,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+## 指标
+
+![Personal 3D Metrics](./profile-3d-contrib/profile-green-animate.svg)
